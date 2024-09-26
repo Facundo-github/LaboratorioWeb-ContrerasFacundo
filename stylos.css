@@ -1,0 +1,67 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body {
+    background-color: rgb(240, 238, 236);
+}
+
+h1 {
+    background-color: antiquewhite;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+h2 {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Logo{
+    display: block;
+    margin: 0 auto;
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;    
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+}
+
+section {
+    background-color: rgb(240,238, 236);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+
+/*Fondo de footer */
+#pie {
+    background-color: antiquewhite;
+/*recuadro del footer */
+    padding: 20px;
+/* margenes del padding y centrado */
+    margin-top: 20px;
+    text-align: center;
+}
+
