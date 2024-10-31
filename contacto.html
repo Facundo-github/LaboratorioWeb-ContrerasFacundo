@@ -10,8 +10,8 @@
     <header>
         <h1>Contacto</h1>
         <nav>
-            <a href="index.html">Principal</a>
-            <a href="contacto.html">Contacto</a>
+            <a href="index.html"> Volver a la Pagina Principal</a><br>
+            <a href="contacto.html">Contacto</a><br>
         </nav>
     </header>
     <main>
@@ -34,42 +34,43 @@
             <label for="direccion">Direccion: </label>
             <input type="text" id="direccion" name="direccion"><br>
 
-            <label for="provincia">Provincia: </label>
+    
+            <label for="provincia">Provincia:</label>
             <input list="provincias" id="provincia" name="provincia">
-            <details id="provincias">
-                <option value="Neuquen">
-                <option value="Rio Negro">
+            <datalist id="provincias">
+                <option value="Neuquén">
+                <option value="Río Negro">
                 <option value="Chubut">
                 <option value="Santa Cruz">
                 <option value="Tierra del Fuego">
-            </details><br>
+            </datalist>
+
 
             <label for="codigo_postal">Codigo Postal: </label>
-            <input type="number" id="codigo_postal" name="codigo_postal"><br>
+            <input type="number" id="codigo_postal" name="codigo_postal">
 
-            <label>Metodo preferido de contacto: </label><br>
+            <label >Metodo preferido de contacto</label>
             <input type="radio"  id="correo_electronico" name="metodo_contacto" value="correo_electronico" checked>
-            <label for="correo_electronico">Correo Electronico</label><br>
+            <label for="correo_electronico">Correo Electronico</label>
             <input type="radio" name="metodo_contacto" id="correo_postal" value="correo_postal">
-            <label for="correo_postal">Correo Postal</label><br>
+            <label for="correo_postal">Correo Postal</label>
             <input type="radio" name="metodo_contacto" id="telefono_contacto" value="telefono">
-            <label for="telefono_contacto">Telefono</label><br>
+            <label for="telefono_contacto">Telefono</label>
 
-            <label>Tipo de suscripcion</label><br>
+            <label >Tipo de suscripcion</label>
             <input type="checkbox" id="noticias" name="suscripcion" value="noticias">
-            <label for="noticias">Noticias</label><br>
+            <label for="noticias">Noticias</label>
             <input type="checkbox" id="promociones" name="suscripcion" value="promociones">
-            <label for="promociones">Promociones</label><br>
+            <label for="promociones">Promociones</label>
             <input type="checkbox" name="suscripcion" id="alertas" value="alertas" checked>
-            <label for="alertas">Alertas</label><br>
+            <label for="alertas">Alertas</label>
             <input type="checkbox" name="suscripcion id="eventos" value="eventos">
-            <label for="eventos">Eventos</label><br>
-
-            <button type="submit">Cargar</button>
+            <label for="eventos">Eventos</label>
 
         </form>
 
-        <table>
+        <button type="button" onclick="cargarDatos()">Cargar</button>
+         <table>
             <tr>
                 <th>Campo</th>
                 <th>Valor</th>
@@ -114,5 +115,17 @@
             </tr>
         </table>
     </main>
+
+    <footer id="pie"><footer>
+        <p>
+            CURZA <br>
+            Monseñor Esandi y Ayacucho <br>
+            Viedma (8500) <br>
+            Rio Negro, Argentina <br>
+            &copy;Todos los derechos reservados&copy; <br>
+        </p>
+
+    </footer>
+
 </body>
 </html>

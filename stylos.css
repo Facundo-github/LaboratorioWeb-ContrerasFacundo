@@ -60,6 +60,55 @@ li {
     display: inline-flex;
 }
 
+form details{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+table{
+    width: 60%;
+    border-collapse:collapse;
+    margin-top: 20%;
+}
+
+table, th, td{
+    border: 2px solid burlywood;
+}
+
+form{
+    margin-top: 20px;
+}
+form label{
+    display: block;
+    margin: 5px;
+}
+
+form input{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 60%;
+    box-sizing: border-box;
+    margin: 18px;
+}
+
+form input, label{
+    text-align: left;
+}
+
+.suscripcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid burlywood;
+    padding: 10px;
+}
+
+.suscripcion {
+    margin-right: 10px;
+}
 
 /*Fondo de footer */
 #pie {
@@ -70,4 +119,5 @@ li {
     margin-top: 20px;
     text-align: center;
 }
+
 
