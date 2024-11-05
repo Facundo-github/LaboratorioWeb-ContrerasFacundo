@@ -49,23 +49,35 @@
             <label for="codigo_postal">Codigo Postal: </label>
             <input type="number" id="codigo_postal" name="codigo_postal">
 
-            <label >Metodo preferido de contacto</label>
-            <input type="radio"  id="correo_electronico" name="metodo_contacto" value="correo_electronico" checked>
-            <label for="correo_electronico">Correo Electronico</label>
-            <input type="radio" name="metodo_contacto" id="correo_postal" value="correo_postal">
-            <label for="correo_postal">Correo Postal</label>
-            <input type="radio" name="metodo_contacto" id="telefono_contacto" value="telefono">
-            <label for="telefono_contacto">Telefono</label>
+            <fieldset>
+                <legend>Método preferido de contacto:</legend> 
+                <label>
+                    <input type="radio" id="correo_electronico" name="metodo_contacto" value="correo_electronico" checked> Correo electrónico 
+                </label>
+                <label>
+                    <input type="radio" id="correo_postal" name="metodo_contacto" value="correo_postal"> Correo postal 
+                </label>
+                <label>
+                    <input type="radio" id="telefono_contacto" name="metodo_contacto" value="telefono"> Teléfono 
+                </label>
+            </fieldset>
 
-            <label >Tipo de suscripcion</label>
-            <input type="checkbox" id="noticias" name="suscripcion" value="noticias">
-            <label for="noticias">Noticias</label>
-            <input type="checkbox" id="promociones" name="suscripcion" value="promociones">
-            <label for="promociones">Promociones</label>
-            <input type="checkbox" name="suscripcion" id="alertas" value="alertas" checked>
-            <label for="alertas">Alertas</label>
-            <input type="checkbox" name="suscripcion id="eventos" value="eventos">
-            <label for="eventos">Eventos</label>
+            
+            <fieldset> <legend>Tipo de suscripción:</legend> 
+                <label>
+                    <input type="checkbox" id="noticias" name="suscripcion" value="noticias"> Noticias
+                </label>
+                <label>
+                    <input type="checkbox" id="promociones" name="suscripcion" value="promociones"> Promociones 
+                </label>
+                <label>
+                    <input type="checkbox" id="alertas" name="suscripcion" value="alertas" checked> Alertas 
+                </label>
+                <label>
+                    <input type="checkbox" id="eventos" name="suscripcion" value="eventos"> Eventos 
+                </label>
+                
+            </fieldset>
 
         </form>
 

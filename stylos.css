@@ -118,18 +118,35 @@ form input, label{
     text-align: left;
 }
 
-.suscripcion {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid burlywood;
-    padding: 10px;
+
+fieldset { 
+    border: 2px solid burlywood; /* Borde con color */ border-radius: 5px; /* Bordes redondeados */ 
+    padding: 10px 15px; /* Espaciado interior */ margin-bottom: 20px; /* Espaciado exterior inferior */ background-color: #f9f9f9; /* Color de fondo */ 
+    width: 80%;
+    margin: 10px
+} 
+
+
+
+legend { 
+    font-weight: bold; /* Texto en negrita */ 
+    color:black; /* Color del texto */ 
+    padding: 0 10px; /* Espaciado alrededor del texto */ 
+} 
+
+fieldset label { 
+    display: inline-block; /* Mostrar etiquetas como bloques */ 
+    margin-bottom: 8px; /* Espaciado inferior entre etiquetas */ 
+    font-size: 16px; /* Tamaño del texto */ 
+    color: #333; /* Color del texto */ 
+} 
+
+fieldset input[type="checkbox"], fieldset input[type="radio"] {
+     margin-right: 10px;
+
 }
 
-.suscripcion {
-    margin-right: 10px;
-}
+
 
 /*Fondo de footer */
 #pie {
