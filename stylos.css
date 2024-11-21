@@ -172,7 +172,7 @@ form input, label{
 
 button{
     display: flex;
-    text-align: left;
+    text-align: center;
     padding: 10px;
 }
 
@@ -247,6 +247,54 @@ fieldset label {
 fieldset input[type="checkbox"], fieldset input[type="radio"] {
      margin-right: 10px;
 
+}
+
+.juego {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height:50vh;
+}
+
+.jugada{
+    text-align: center;
+}
+
+button{
+    background-color: #45a049;
+    color:black;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #333;
+}
+
+button:focus{
+    outline: #333;
+    background-color: antiquewhite;
+}
+
+h4{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+span{
+    padding-top: 15px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.texto-mayuscula{
+    text-transform: uppercase;
 }
 
 
